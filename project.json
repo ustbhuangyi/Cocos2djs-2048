@@ -1,0 +1,24 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 0,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir" :"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions", "external"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/config/GameConfig.js",
+
+        "src/gamePlay/scene/GamePlay.js",
+        "src/gamePlay/layer/GPBackgroundLayer.js",
+        "src/gamePlay/layer/GPTouchLayer.js",
+        "src/gamePlay/sprite/TileSprite.js",
+        "src/gamePlay/classes/Grid.js",
+        "src/gamePlay/classes/Tile.js"
+    ]
+}
